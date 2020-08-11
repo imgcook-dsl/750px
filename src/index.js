@@ -595,18 +595,16 @@ body {
           <html lang="zh-CN">
           <head>
             <meta charset="UTF-8">
+            <title>Document</title>
             <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
             <meta name="apple-mobile-web-app-capable" content="yes">
             <meta name="apple-mobile-web-app-status-bar-style" content="black">
             <meta name="format-detection" content="telephone=no">
-            <meta name="WT.pageID" content="YHZX-YHSQ">
-            <meta name="WT.title" content="账号授权">
             <meta name="full-screen" content="yes">
             <meta name="browsermode" content="application">
             <meta name="x5-fullscreen" content="true">
             <meta name="x5-page-mode" content="app">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>Document</title>
             <link rel="stylesheet" href="./style.responsive.rem.css" />
             ${imports.join('\n')}
             <script>
