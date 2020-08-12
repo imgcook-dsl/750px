@@ -225,7 +225,7 @@ body {
   // 1vw = width / 100
   const _w = option.responsive.width / 100;
 
-  const _rem = option.responsive.width / 3.75;
+  const _rem = option.responsive.width / 7.5 * 2;
 
   const prettierHtmlOpt = {
     parser: 'html'
