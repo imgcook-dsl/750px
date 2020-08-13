@@ -2,6 +2,7 @@
 module.exports = function(schema, option) {
   let defalutCss = `
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
