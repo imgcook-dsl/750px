@@ -224,7 +224,7 @@ body {
   // 1vw = width / 100
   const _w = option.responsive.width / 100;
 
-  const _rem = option.responsive.width / 7.5 * 2;
+  const _rem = option.responsive.width / 7.5;
 
   const prettierHtmlOpt = {
     parser: 'html'
@@ -322,7 +322,7 @@ body {
           case 'borderTopRightRadius':
           case 'borderTopLeftRadius':
           case 'borderRadius':
-            styles[style][key] = (parseInt(styles[style][key]) / _rem).toFixed(2) + 'rem';
+            styles[style][key] = (parseInt(styles[style][key]) * 2 / _rem).toFixed(2) + 'rem';
             break;
         }
       }
