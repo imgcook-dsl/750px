@@ -326,7 +326,7 @@ body {
           case 'borderTopRightRadius':
           case 'borderTopLeftRadius':
           case 'borderRadius':
-            styles[style][key] = (parseInt(styles[style][key]) * 2 / _rem).toFixed(2) + 'rem';
+            styles[style][key] = (parseInt(styles[style][key]) / _rem).toFixed(2) + 'rem';
             break;
         }
       }
