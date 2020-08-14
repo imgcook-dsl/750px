@@ -204,7 +204,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-}`
+}
+/*--------------reset end--------------*/
+
+`
   const {prettier} = option;
 
   // imports
